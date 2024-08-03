@@ -1,6 +1,6 @@
 {
     "autoupdate": {
-        "url": "https://r2-app.eagle.cool/releases/Eagle-$version.exe"
+        "url": "https://r2-app.eagle.cool/releases/Eagle-$version-x64-build$build.exe"
     },
     "bin": [
         [
@@ -11,7 +11,7 @@
     ],
     "checkver": {
         "jsonpath": "$.links.windows",
-        "regex": "//eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-(?<version>(.+?))\\.exe",
+        "regex": "//eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-(?<version>(.+?))-x64-build(?<build>(.+?))\\.exe",
         "replace": "${version}",
         "url": "https://eagle.cool/check-for-update"
     },
