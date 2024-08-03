@@ -11,7 +11,7 @@
     ],
     "checkver": {
         "jsonpath": "$.links.windows",
-	     "regrex":"\/\/eaglefile.oss-cn-shenzhen.aliyuncs.com\/releases\/Eagle-(?<version>(.+?))-x64-build(?<build>(.+?))\\.exe",
+	     "regex":"\/\/eaglefile.oss-cn-shenzhen.aliyuncs.com\/releases\/Eagle-(?<version>(.+?))-x64-build(?<build>(.+?))\\.exe",
         "replace": "${version}-build${build}",
 	"url":"https://eagle.cool/check-for-update"
     },
