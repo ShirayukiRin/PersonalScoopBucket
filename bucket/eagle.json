@@ -1,17 +1,17 @@
 {
-  "version": "0",
-  "description": "Eagle helps you become a happier, better designer. A new way to collect, search and organize your image files in a logical way and all in one place.",
-  "homepage": "https://eagle.cool/",
-  "license": {
-    "identifier": "Shareware",
-    "url": "https://en.eagle.cool/privacy"
-  },
-  "checkver":{
-	"url":"https://eagle.cool/check-for-update",
-	"jp":"$.links.windows",
-	"regrex":"\/\/eaglefile.oss-cn-shenzhen.aliyuncs.com\/releases\/Eagle-(?<version>(.+?))-x64-build(?<build>(.+?))\\.exe"
-  },
-  "autoupdate": {
+    "version": "//eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-4.0-x64-build1.exe",
+    "description": "Eagle helps you become a happier, better designer. A new way to collect, search and organize your image files in a logical way and all in one place.",
+    "homepage": "https://eagle.cool/",
+    "license": {
+        "identifier": "Shareware",
+        "url": "https://en.eagle.cool/privacy"
+    },
+    "checkver": {
+        "url": "https://eagle.cool/check-for-update",
+        "jp": "$.links.windows",
+        "regrex": "//eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-(?<version>(.+?))-x64-build(?<build>(.+?))\\.exe"
+    },
+    "autoupdate": {
         "url": "https://r2-app.eagle.cool/releases/Eagle-$version-x64-build$build.exe"
     }
 }
