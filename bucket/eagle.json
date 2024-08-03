@@ -11,22 +11,21 @@
     ],
     "checkver": {
         "jsonpath": "$.links.windows",
-	     "regex":"\/\/eaglefile.oss-cn-shenzhen.aliyuncs.com\/releases\/Eagle-(?<version>(.+?))\\.exe",
+        "regex": "//eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-(?<version>(.+?))\\.exe",
         "replace": "${version}",
-	"url":"https://eagle.cool/check-for-update"
+        "url": "https://eagle.cool/check-for-update"
     },
     "depends": "sudo",
     "description": "Eagle helps you become a happier, better designer. A new way to collect, search and organize your image files in a logical way and all in one place.",
-    "hash": "3d1b294dca4822a6fe2f510b200ebf0080790f4b9064f3a8e6d0ec9dc98418e8",
-      "homepage": "https://eagle.cool/",
+    "hash": "666594b17fd953304adf15e6c7133ec1e5bc4121be742e7946a81e75685f95ff",
+    "homepage": "https://eagle.cool/",
     "installer": {
         "script": "sudo Start-Process -Filepath \"$dir\\installer.exe\" -WorkingDirectory \"$dir\" -ArgumentList \"/S /D=$dir\" -Wait"
     },
-
-  "license": {
-    "identifier": "Shareware",
-    "url": "https://en.eagle.cool/privacy"
-  },
+    "license": {
+        "identifier": "Shareware",
+        "url": "https://en.eagle.cool/privacy"
+    },
     "persist": "User Data",
     "post_install": [
         "sudo Remove-Item -path \"$dir\\installer.exe\" -Force",
@@ -42,6 +41,6 @@
             "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
-    "url": "https://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-3.0-build38.exe#/installer.exe",
-    "version": "3.0.0.38"
+    "url": "https://r2-app.eagle.cool/releases/Eagle-4.0-x64-build1.exe",
+    "version": "4.0-x64-build1"
 }
