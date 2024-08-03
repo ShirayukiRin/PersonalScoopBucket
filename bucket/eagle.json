@@ -1,6 +1,6 @@
 {
     "autoupdate": {
-        "url": "https://r2-app.eagle.cool/releases/Eagle-$version-x64-build$matchBuild.exe"
+        "url": "https://r2-app.eagle.cool/releases/Eagle-$version-x64-build$matchBuild.exe#installer.exe"
     },
     "bin": [
         [
