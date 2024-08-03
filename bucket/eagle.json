@@ -27,13 +27,6 @@
         "url": "https://en.eagle.cool/privacy"
     },
     "persist": "User Data",
-    "post_install": [
-        "sudo Remove-Item -path \"$dir\\installer.exe\" -Force",
-        "if (!(Test-Path \"$dir\\User Data\\*\") -and (Test-Path \"$env:AppData\\Eagle\")) {",
-        "    info '[Portable Mode]: Copying user data...'",
-        "    Copy-Item \"$env:AppData\\Eagle\\*\" \"$dir\\User Data\" -Recurse",
-        "}"
-    ],
     "shortcuts": [
         [
             "Eagle.exe",
