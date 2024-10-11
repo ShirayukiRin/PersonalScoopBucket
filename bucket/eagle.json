@@ -1,5 +1,5 @@
 {
-    "version": "4.0.0.3",
+    "version": "4.0.0.4",
     "description": "Eagle helps you become a happier, better designer. A new way to collect, search and organize your image files in a logical way and all in one place.",
     "homepage": "https://en.eagle.cool/",
     "license": {
@@ -7,8 +7,8 @@
         "url": "https://en.eagle.cool/privacy"
     },
     "depends": "sudo",
-    "url": "https://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-4.0-x64-build3.exe#/installer.exe",
-    "hash": "1f68526be337d6c39a411a0dffa4545e8f714958af4a4f9152a0d3c580583b11",
+    "url": "https://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-4.0-x64-build4.exe#/installer.exe",
+    "hash": "ae2f038275516e835f9bb6190a3dcbb0766a20bd3faa85873c6e0fe20f89d042",
     "bin": [
         [
             "Eagle.exe",
